@@ -1,0 +1,43 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 560 400" fill="none">
+  <g stroke="#ffffff" stroke-width="3" stroke-linecap="round" stroke-linejoin="round">
+    <!-- heartbeat line -->
+    <path d="M40 150 H120 l16 -40 l24 78 l18 -34 H250" opacity="0.45"/>
+    <!-- ground -->
+    <line x1="60" y1="352" x2="520" y2="352" opacity="0.6"/>
+    <!-- trees -->
+    <g opacity="0.85">
+      <circle cx="110" cy="318" r="24" fill="#ffffff" fill-opacity="0.14"/>
+      <line x1="110" y1="342" x2="110" y2="352"/>
+      <circle cx="470" cy="320" r="22" fill="#ffffff" fill-opacity="0.14"/>
+      <line x1="470" y1="342" x2="470" y2="352"/>
+    </g>
+    <!-- main building -->
+    <rect x="180" y="150" width="200" height="202" rx="10" fill="#ffffff" fill-opacity="0.13"/>
+    <!-- tower -->
+    <rect x="250" y="92" width="60" height="60" rx="8" fill="#ffffff" fill-opacity="0.18"/>
+    <!-- side wing -->
+    <rect x="360" y="220" width="90" height="132" rx="8" fill="#ffffff" fill-opacity="0.10"/>
+    <!-- windows (main) -->
+    <g fill="#ffffff" fill-opacity="0.22" stroke="none">
+      <rect x="198" y="176" width="24" height="24" rx="3"/>
+      <rect x="238" y="176" width="24" height="24" rx="3"/>
+      <rect x="298" y="176" width="24" height="24" rx="3"/>
+      <rect x="338" y="176" width="24" height="24" rx="3"/>
+      <rect x="198" y="216" width="24" height="24" rx="3"/>
+      <rect x="238" y="216" width="24" height="24" rx="3"/>
+      <rect x="298" y="216" width="24" height="24" rx="3"/>
+      <rect x="338" y="216" width="24" height="24" rx="3"/>
+      <rect x="376" y="240" width="20" height="20" rx="3"/>
+      <rect x="414" y="240" width="20" height="20" rx="3"/>
+      <rect x="376" y="278" width="20" height="20" rx="3"/>
+      <rect x="414" y="278" width="20" height="20" rx="3"/>
+    </g>
+    <!-- entrance -->
+    <rect x="256" y="292" width="48" height="60" rx="6" fill="#ffffff" fill-opacity="0.20"/>
+    <!-- medical cross on tower -->
+    <g fill="#ffffff" stroke="none">
+      <rect x="272" y="104" width="16" height="38" rx="3"/>
+      <rect x="261" y="115" width="38" height="16" rx="3"/>
+    </g>
+  </g>
+</svg>
