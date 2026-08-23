@@ -1,0 +1,22 @@
+{
+  "name": "healthappt-backend",
+  "version": "1.0.0",
+  "private": true,
+  "type": "commonjs",
+  "description": "Express REST API for the Healthcare Appointment Management System",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node --watch server.js"
+  },
+  "dependencies": {
+    "@azure/identity": "^4.4.1",
+    "applicationinsights": "^3.0.0",
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.5",
+    "express": "^4.19.2",
+    "helmet": "^7.1.0",
+    "jsonwebtoken": "^9.0.2",
+    "jwks-rsa": "^3.1.0",
+    "mssql": "^11.0.1"
+  }
+}
